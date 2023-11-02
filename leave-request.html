@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Leave Request</title>
+    <!-- Styles-->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<style>
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+    <form>
+        <label for="ltype">Leave Type*</label><br>
+        <select name="ltype" id="ltype">
+            <option value="volvo">Annual Leave</option>
+            <option value="saab">Compassionate Leave</option>
+            <option value="mercedes">Compensatory Leave</option>
+            <option value="audi">Maternity Leave</option>
+            <option value="volvo">Paternity Leave</option>
+            <option value="saab">Sabbatical Leave</option>
+            <option value="mercedes">Sick Leave</option>
+            <option value="audi">Study Leave</option>
+          </select><br>
+
+        <label for="assignto">Assign your tasks to*</label><br>
+        <select name="assignto" id="assignto">
+            <option value="volvo">Shirleen Njoki</option>
+            <option value="saab">Eunice Muthoni</option>
+            <option value="mercedes">Mutua Jimmy</option>
+            <option value="audi">David Rimui</option>
+            <option value="volvo">Khristeen Nyokabi</option>
+            <option value="saab">Madam Akberret</option>
+            <option value="mercedes">Dej Deju</option>
+            <option value="audi">Meron Mathew</option>
+          </select><br>
+        
+        <label for="requestfor">Request for*</label><br>
+        <input type="radio" id="html" name="requestfor">
+        <label for="html">Me</label>
+        <input type="radio" id="css" name="requestfor">
+        <label for="css">Staff</label><br>
+
+        <label for="emergency">Is this an emergency request?*</label><br>
+        <input type="radio" id="no" name="no"> 
+        <label for="no">Submit for approval (Reason Required)</label><br>
+
+        <label for="sdate">Start Date*</label><br>
+        <input type="date" id="sdate" name="sdate">
+        <label for="edate">End  Date*</label><br>
+        <input type="date" id="edate" name="edate"><br>
+        
+        <label for="reason">Reason*</label><br>
+        <input type="text" id="reason" name="reason"><br>
+    </form>
+</body>
+</html>
